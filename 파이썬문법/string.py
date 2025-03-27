@@ -100,3 +100,7 @@ str="{0:<10}".format("hi")
 str="{0:^10}".format("hi")
 #공백채우기
 str="{0:=^10}".format("hi")
+
+#특정문자삭제
+string='aabbcc'
+string.replace('a','')
