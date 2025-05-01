@@ -24,7 +24,12 @@ a[2:]
 a[:1] + 'y' + a[2:]
 'Python'
 
-#문자열 포맷팅1
+# step
+a[ start : end : step ]
+step이 양수일 때: 오른쪽으로 step만큼 이동하면서 가져옵니다.
+step이 음수일 때: 왼쪽으로 step만큼 이동하면서 가져옵니다.
+
+# 문자열 포맷팅1
 number=3
 str1="I eat %d apples." % number
 food="apple"

@@ -8,3 +8,5 @@ for c in str1:
     i+=1
 for i in list:
     print(i,end=" ")
+    
+## -1로 초기화된 배열 만들기 [-1]*26

@@ -6,3 +6,5 @@ for j in range(len(a)):
         if a[j] in i:
             ret += dial.index(i)+3
 print(ret)
+
+#배열 내부에 배열 넣고 in 으로 푸는 방식 기억억
